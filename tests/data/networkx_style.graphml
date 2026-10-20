@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Формат, который пишет networkx.write_graphml для DiGraph; вход/выход — булевы ключи. -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="entry" attr.type="boolean"><default>false</default></key>
+  <key id="d1" for="node" attr.name="exit" attr.type="boolean"><default>false</default></key>
+  <key id="d2" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1"><data key="d0">true</data><data key="d2">x = 0</data></node>
+    <node id="2"><data key="d2">i &lt; n</data></node>
+    <node id="3"><data key="d2">x += i</data></node>
+    <node id="4"><data key="d2">return x</data></node>
+    <node id="5"><data key="d1">true</data></node>
+    <edge source="1" target="2" />
+    <edge source="2" target="3" />
+    <edge source="3" target="2" />
+    <edge source="2" target="4" />
+    <edge source="4" target="5" />
+  </graph>
+</graphml>

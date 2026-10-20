@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- if (cond) then-ветвь else else-ветвь -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="cond"/>
+    <node id="then"/>
+    <node id="else"/>
+    <node id="join"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="cond"/>
+    <edge source="cond" target="then"/>
+    <edge source="cond" target="else"/>
+    <edge source="then" target="join"/>
+    <edge source="else" target="join"/>
+    <edge source="join" target="exit"/>
+  </graph>
+</graphml>
