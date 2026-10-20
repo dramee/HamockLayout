@@ -4,6 +4,7 @@
 
 #include <algorithm>
 #include <cctype>
+#include <filesystem>
 #include <fstream>
 #include <map>
 #include <sstream>
@@ -207,7 +208,7 @@ Graph parseGraphML(std::string_view document, const GraphMLOptions& options) {
 }
 
 Graph loadGraphML(const std::string& path, const GraphMLOptions& options) {
-    std::ifstream in(path, std::ios::binary);
+    std::ifstream in(std::filesystem::u8path(path), std::ios::binary);  // путь в UTF-8
     if (!in) throw GraphMLError("не удалось открыть файл '" + path + "'");
     std::ostringstream buffer;
     buffer << in.rdbuf();

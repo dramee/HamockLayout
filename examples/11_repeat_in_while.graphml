@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Цикл repeat-until внутри while и if внутри repeat -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="init"/>
+    <node id="while c1 ?"/>
+    <node id="body start"/>
+    <node id="repeat"/>
+    <node id="c2 ?"/>
+    <node id="work A"/>
+    <node id="endif"/>
+    <node id="until c3 ?"/>
+    <node id="work B"/>
+    <node id="body end"/>
+    <node id="finish"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="init"/>
+    <edge source="init" target="while c1 ?"/>
+    <edge source="while c1 ?" target="body start"/>
+    <edge source="body start" target="repeat"/>
+    <edge source="repeat" target="c2 ?"/>
+    <edge source="c2 ?" target="work A"/>
+    <edge source="work A" target="endif"/>
+    <edge source="endif" target="until c3 ?"/>
+    <edge source="until c3 ?" target="repeat"/>
+    <edge source="c2 ?" target="work B"/>
+    <edge source="work B" target="endif"/>
+    <edge source="until c3 ?" target="body end"/>
+    <edge source="body end" target="while c1 ?"/>
+    <edge source="while c1 ?" target="finish"/>
+    <edge source="finish" target="exit"/>
+  </graph>
+</graphml>

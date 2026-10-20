@@ -3,6 +3,8 @@
 #include "helpers.hpp"
 #include "test_framework.hpp"
 
+#include <filesystem>
+#include <fstream>
 #include <random>
 
 using hammock::Graph;
@@ -155,6 +157,18 @@ TEST(graphml_loads_files) {
 
     CHECK_THROWS(loadGraphML(kDataDir + "/undirected.graphml"), GraphMLError);
     CHECK_THROWS(loadGraphML(kDataDir + "/does_not_exist.graphml"), GraphMLError);
+}
+
+TEST(graphml_loads_file_with_unicode_path) {
+    const auto path = std::filesystem::temp_directory_path() / std::filesystem::u8path("граф_тест.graphml");
+    {
+        std::ofstream out(path, std::ios::binary);
+        out << hammock::writeGraphML(test_helpers::makeGraph({"вход>выход"}));
+    }
+    const Graph g = loadGraphML(path.u8string());
+    CHECK_EQ(g.vertexCount(), 2);
+    CHECK_EQ(g.id(g.entry()), std::string("вход"));
+    std::filesystem::remove(path);
 }
 
 TEST(graphml_write_then_parse_round_trip) {

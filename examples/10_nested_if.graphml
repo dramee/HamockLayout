@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Вложенные ветвления и последовательность двух if -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="c1 ?"/>
+    <node id="c2 ?"/>
+    <node id="s1"/>
+    <node id="j2"/>
+    <node id="j1"/>
+    <node id="s2"/>
+    <node id="c3 ?"/>
+    <node id="s3"/>
+    <node id="j3"/>
+    <node id="c4 ?"/>
+    <node id="s4"/>
+    <node id="j4"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <node id="s5"/>
+    <edge source="entry" target="c1 ?"/>
+    <edge source="c1 ?" target="c2 ?"/>
+    <edge source="c2 ?" target="s1"/>
+    <edge source="s1" target="j2"/>
+    <edge source="j2" target="j1"/>
+    <edge source="c2 ?" target="s2"/>
+    <edge source="s2" target="j2"/>
+    <edge source="c1 ?" target="c3 ?"/>
+    <edge source="c3 ?" target="s3"/>
+    <edge source="s3" target="j3"/>
+    <edge source="j3" target="j1"/>
+    <edge source="c3 ?" target="j3"/>
+    <edge source="j1" target="c4 ?"/>
+    <edge source="c4 ?" target="s4"/>
+    <edge source="s4" target="j4"/>
+    <edge source="j4" target="exit"/>
+    <edge source="c4 ?" target="s5"/>
+    <edge source="s5" target="j4"/>
+  </graph>
+</graphml>

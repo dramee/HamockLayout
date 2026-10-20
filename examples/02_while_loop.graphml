@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- s = 0; i = 0; while (i < n) { s += a[i]; i++; } return s; -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="s = 0; i = 0"/>
+    <node id="i &lt; n ?"/>
+    <node id="s += a[i]"/>
+    <node id="i++"/>
+    <node id="return s"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="s = 0; i = 0"/>
+    <edge source="s = 0; i = 0" target="i &lt; n ?"/>
+    <edge source="i &lt; n ?" target="s += a[i]"/>
+    <edge source="s += a[i]" target="i++"/>
+    <edge source="i++" target="i &lt; n ?"/>
+    <edge source="i &lt; n ?" target="return s"/>
+    <edge source="return s" target="exit"/>
+  </graph>
+</graphml>

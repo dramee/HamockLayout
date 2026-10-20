@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="152.7" height="544.0" viewBox="0 0 152.7 544.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="76.3" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">08_irreducible: гамаки</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+      <g class="hammock"><title>гамак A → D</title>
+        <rect x="20.0" y="94.0" width="112.7" height="252.0" rx="8" fill="#e8f1fb" stroke="#7aa7d6" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="27.0" y="107.0" text-anchor="start" font-size="11" fill="#3d6c9e">A → D</text>
+        <circle cx="54.0" cy="346.0" r="2.5" fill="#7aa7d6"/>
+      </g>
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M81.7,154.0 L54.0,198.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M95.7,154.0 L104.6,192.2 Q106.0,198.0 106.0,204.0 L106.0,222.0 Q106.0,228.0 104.6,233.8 L95.7,272.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M61.0,228.0 L81.7,272.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M47.0,228.0 L38.0,266.2 Q36.7,272.0 36.7,278.0 L36.7,296.0 Q36.7,302.0 38.9,307.6 L54.0,346.0" stroke="#555555"/>
+      <path d="M102.7,302.0 L102.7,307.0 Q102.7,312.0 107.7,312.0 L112.7,312.0 Q118.7,312.0 118.7,306.0 L118.7,256.0 Q118.7,250.0 112.7,250.0 L90.0,250.0 Q84.0,250.0 84.0,244.0 L84.0,194.0 Q84.0,188.0 78.0,188.0 L73.0,188.0 Q68.0,188.0 68.0,193.0 L68.0,198.0" stroke="#c0392b" marker-end="url(#arrow-back)"/>
+      <path d="M88.7,302.0 L54.0,346.0" stroke="#555555"/>
+      <path d="M88.7,50.0 L88.7,88.0 Q88.7,94.0 88.7,100.0 L88.7,124.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M54.0,346.0 L54.0,390.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M54.0,420.0 L54.0,464.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="58.2" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="88.7" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="68.7" y="124.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="88.7" y="139.0" text-anchor="middle" dominant-baseline="central" fill="#222">A</text></g>
+      <g class="vertex"><rect x="34.0" y="198.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="54.0" y="213.0" text-anchor="middle" dominant-baseline="central" fill="#222">B</text></g>
+      <g class="vertex"><rect x="68.7" y="272.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="88.7" y="287.0" text-anchor="middle" dominant-baseline="central" fill="#222">C</text></g>
+      <g class="vertex"><rect x="34.0" y="390.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="54.0" y="405.0" text-anchor="middle" dominant-baseline="central" fill="#222">D</text></g>
+      <g class="vertex"><rect x="27.2" y="464.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="54.0" y="479.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+    </g>
+  </g>
+</svg>

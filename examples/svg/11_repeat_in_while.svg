@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="393.7" height="1156.0" viewBox="0 0 393.7 1156.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="196.9" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">11_repeat_in_while: гамаки</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+      <g class="hammock"><title>гамак while c1 ? → finish</title>
+        <rect x="40.2" y="168.0" width="333.5" height="790.0" rx="8" fill="#e8f1fb" stroke="#7aa7d6" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="366.7" y="181.0" text-anchor="end" font-size="11" fill="#3d6c9e">while c1 ? → finish</text>
+        <circle cx="54.2" cy="958.0" r="2.5" fill="#7aa7d6"/>
+      </g>
+      <g class="hammock"><title>гамак repeat → body end</title>
+        <rect x="66.2" y="356.0" width="258.2" height="484.0" rx="8" fill="#eaf6ec" stroke="#7dbb8a" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="73.2" y="369.0" text-anchor="start" font-size="11" fill="#3f7d4c">repeat → body end</text>
+        <circle cx="251.4" cy="840.0" r="2.5" fill="#7dbb8a"/>
+      </g>
+      <g class="hammock"><title>гамак c2 ? → endif</title>
+        <rect x="80.2" y="470.0" width="190.8" height="178.0" rx="8" fill="#fdf3e3" stroke="#e0b25e" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="264.0" y="483.0" text-anchor="end" font-size="11" fill="#94681c">c2 ? → endif</text>
+        <circle cx="175.6" cy="648.0" r="2.5" fill="#e0b25e"/>
+      </g>
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M168.6,530.0 L128.4,574.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M182.6,530.0 L222.8,574.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M222.8,604.0 L175.6,648.0" stroke="#555555"/>
+      <path d="M128.4,604.0 L175.6,648.0" stroke="#555555"/>
+      <path d="M247.1,426.0 L180.7,466.9 Q175.6,470.0 175.6,476.0 L175.6,500.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M175.6,648.0 L200.9,692.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M200.9,722.0 L251.4,766.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M285.7,796.0 L285.7,801.0 Q285.7,806.0 290.7,806.0 L304.4,806.0 Q310.4,806.0 310.4,800.0 L310.4,750.0 Q310.4,744.0 305.4,740.7 L281.7,725.3 Q276.7,722.0 276.7,716.0 L276.7,698.0 Q276.7,692.0 277.5,686.1 L282.2,653.9 Q283.0,648.0 283.0,642.0 L283.0,476.0 Q283.0,470.0 285.1,464.4 L289.2,453.6 Q291.3,448.0 291.3,442.0 L291.3,392.0 Q291.3,386.0 285.3,386.0 L276.1,386.0 Q271.1,386.0 271.1,391.0 L271.1,396.0" stroke="#c0392b" marker-end="url(#arrow-back)"/>
+      <path d="M251.4,796.0 L251.4,840.0" stroke="#555555"/>
+      <path d="M209.3,238.0 L224.7,282.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M195.3,238.0 L89.4,279.8 Q83.8,282.0 83.8,288.0 L83.8,306.0 Q83.8,312.0 80.5,317.0 L57.6,351.0 Q54.2,356.0 54.2,362.0 L54.2,834.0 Q54.2,840.0 54.2,846.0 L54.2,878.0 Q54.2,884.0 54.2,890.0 L54.2,908.0 Q54.2,914.0 54.2,920.0 L54.2,958.0" stroke="#555555"/>
+      <path d="M224.7,312.0 L244.4,350.7 Q247.1,356.0 247.1,362.0 L247.1,396.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M251.4,840.0 L308.1,884.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M337.2,914.0 L337.2,919.0 Q337.2,924.0 342.2,924.0 L353.7,924.0 Q359.7,924.0 359.7,918.0 L359.7,868.0 Q359.7,862.0 355.4,857.9 L340.8,844.1 Q336.4,840.0 336.4,834.0 L336.4,362.0 Q336.4,356.0 333.3,350.9 L312.7,317.1 Q309.6,312.0 309.6,306.0 L309.6,288.0 Q309.6,282.0 304.2,279.5 L266.8,262.5 Q261.3,260.0 261.3,254.0 L261.3,204.0 Q261.3,198.0 255.3,198.0 L241.6,198.0 Q236.6,198.0 236.6,203.0 L236.6,208.0" stroke="#c0392b" marker-end="url(#arrow-back)"/>
+      <path d="M202.3,50.0 L202.3,94.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M202.3,124.0 L202.3,162.0 Q202.3,168.0 202.3,174.0 L202.3,208.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M54.2,958.0 L54.2,1002.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M54.2,1032.0 L54.2,1076.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="171.8" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="202.3" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="175.5" y="94.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="202.3" y="109.0" text-anchor="middle" dominant-baseline="central" fill="#222">init</text></g>
+      <g class="vertex"><rect x="153.3" y="208.0" width="98.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="202.3" y="223.0" text-anchor="middle" dominant-baseline="central" fill="#222">while c1 ?</text></g>
+      <g class="vertex"><rect x="175.7" y="282.0" width="98.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="224.7" y="297.0" text-anchor="middle" dominant-baseline="central" fill="#222">body start</text></g>
+      <g class="vertex"><rect x="212.9" y="396.0" width="68.4" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="247.1" y="411.0" text-anchor="middle" dominant-baseline="central" fill="#222">repeat</text></g>
+      <g class="vertex"><rect x="148.8" y="500.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="175.6" y="515.0" text-anchor="middle" dominant-baseline="central" fill="#222">c2 ?</text></g>
+      <g class="vertex"><rect x="94.2" y="574.0" width="68.4" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="128.4" y="589.0" text-anchor="middle" dominant-baseline="central" fill="#222">work A</text></g>
+      <g class="vertex"><rect x="170.4" y="692.0" width="61.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="200.9" y="707.0" text-anchor="middle" dominant-baseline="central" fill="#222">endif</text></g>
+      <g class="vertex"><rect x="202.4" y="766.0" width="98.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="251.4" y="781.0" text-anchor="middle" dominant-baseline="central" fill="#222">until c3 ?</text></g>
+      <g class="vertex"><rect x="188.6" y="574.0" width="68.4" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="222.8" y="589.0" text-anchor="middle" dominant-baseline="central" fill="#222">work B</text></g>
+      <g class="vertex"><rect x="266.5" y="884.0" width="83.2" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="308.1" y="899.0" text-anchor="middle" dominant-baseline="central" fill="#222">body end</text></g>
+      <g class="vertex"><rect x="20.0" y="1002.0" width="68.4" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="54.2" y="1017.0" text-anchor="middle" dominant-baseline="central" fill="#222">finish</text></g>
+      <g class="vertex"><rect x="27.4" y="1076.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="54.2" y="1091.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+    </g>
+  </g>
+</svg>

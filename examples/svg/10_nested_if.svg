@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="380.1" height="1062.0" viewBox="0 0 380.1 1062.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="190.1" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">10_nested_if: гамаки</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+      <g class="hammock"><title>гамак c1 ? → j1</title>
+        <rect x="20.0" y="94.0" width="340.1" height="474.0" rx="8" fill="#e8f1fb" stroke="#7aa7d6" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="27.0" y="107.0" text-anchor="start" font-size="11" fill="#3d6c9e">c1 ? → j1</text>
+        <circle cx="203.2" cy="568.0" r="2.5" fill="#7aa7d6"/>
+      </g>
+      <g class="hammock"><title>гамак c3 ? → j1</title>
+        <rect x="222.0" y="198.0" width="124.1" height="326.0" rx="8" fill="#eaf6ec" stroke="#7dbb8a" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="229.0" y="211.0" text-anchor="start" font-size="11" fill="#3f7d4c">c3 ? → j1</text>
+        <circle cx="291.3" cy="524.0" r="2.5" fill="#7dbb8a"/>
+      </g>
+      <g class="hammock"><title>гамак c3 ? → j3</title>
+        <rect x="236.0" y="228.0" width="96.1" height="178.0" rx="8" fill="#fdf3e3" stroke="#e0b25e" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="243.0" y="241.0" text-anchor="start" font-size="11" fill="#94681c">c3 ? → j3</text>
+        <circle cx="291.3" cy="406.0" r="2.5" fill="#e0b25e"/>
+      </g>
+      <g class="hammock"><title>гамак c2 ? → j1</title>
+        <rect x="34.0" y="198.0" width="162.0" height="326.0" rx="8" fill="#eaf6ec" stroke="#7dbb8a" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="189.0" y="211.0" text-anchor="end" font-size="11" fill="#3f7d4c">c2 ? → j1</text>
+        <circle cx="115.0" cy="524.0" r="2.5" fill="#7dbb8a"/>
+      </g>
+      <g class="hammock"><title>гамак c2 ? → j2</title>
+        <rect x="48.0" y="228.0" width="134.0" height="178.0" rx="8" fill="#fdf3e3" stroke="#e0b25e" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="175.0" y="241.0" text-anchor="end" font-size="11" fill="#94681c">c2 ? → j2</text>
+        <circle cx="115.0" cy="406.0" r="2.5" fill="#e0b25e"/>
+      </g>
+      <g class="hammock"><title>гамак c4 ? → j4</title>
+        <rect x="136.2" y="686.0" width="134.0" height="178.0" rx="8" fill="#e8f1fb" stroke="#7aa7d6" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="263.2" y="699.0" text-anchor="end" font-size="11" fill="#3d6c9e">c4 ? → j4</text>
+        <circle cx="203.2" cy="864.0" r="2.5" fill="#7aa7d6"/>
+      </g>
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M284.3,288.0 L270.0,332.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M298.3,288.0 L301.5,326.0 Q302.0,332.0 302.0,338.0 L302.0,356.0 Q302.0,362.0 300.6,367.8 L291.3,406.0" stroke="#555555"/>
+      <path d="M270.0,362.0 L291.3,406.0" stroke="#555555"/>
+      <path d="M291.3,406.0 L291.3,450.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M291.3,480.0 L291.3,524.0" stroke="#555555"/>
+      <path d="M108.0,288.0 L82.0,332.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M122.0,288.0 L148.0,332.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M148.0,362.0 L115.0,406.0" stroke="#555555"/>
+      <path d="M82.0,362.0 L115.0,406.0" stroke="#555555"/>
+      <path d="M115.0,406.0 L115.0,450.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M115.0,480.0 L115.0,524.0" stroke="#555555"/>
+      <path d="M196.2,154.0 L120.3,195.1 Q115.0,198.0 115.0,204.0 L115.0,222.0 Q115.0,228.0 115.0,234.0 L115.0,258.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M210.2,154.0 L286.1,195.1 Q291.3,198.0 291.3,204.0 L291.3,222.0 Q291.3,228.0 291.3,234.0 L291.3,258.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M291.3,524.0 L203.2,568.0" stroke="#555555"/>
+      <path d="M115.0,524.0 L203.2,568.0" stroke="#555555"/>
+      <path d="M196.2,746.0 L170.2,790.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M210.2,746.0 L236.2,790.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M236.2,820.0 L203.2,864.0" stroke="#555555"/>
+      <path d="M170.2,820.0 L203.2,864.0" stroke="#555555"/>
+      <path d="M203.2,50.0 L203.2,88.0 Q203.2,94.0 203.2,100.0 L203.2,124.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M203.2,568.0 L203.2,612.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M203.2,642.0 L203.2,680.0 Q203.2,686.0 203.2,692.0 L203.2,716.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M203.2,864.0 L203.2,908.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M203.2,938.0 L203.2,982.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="172.7" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="203.2" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="176.4" y="124.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="203.2" y="139.0" text-anchor="middle" dominant-baseline="central" fill="#222">c1 ?</text></g>
+      <g class="vertex"><rect x="88.2" y="258.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="115.0" y="273.0" text-anchor="middle" dominant-baseline="central" fill="#222">c2 ?</text></g>
+      <g class="vertex"><rect x="62.0" y="332.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="82.0" y="347.0" text-anchor="middle" dominant-baseline="central" fill="#222">s1</text></g>
+      <g class="vertex"><rect x="95.0" y="450.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="115.0" y="465.0" text-anchor="middle" dominant-baseline="central" fill="#222">j2</text></g>
+      <g class="vertex"><rect x="183.2" y="612.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="203.2" y="627.0" text-anchor="middle" dominant-baseline="central" fill="#222">j1</text></g>
+      <g class="vertex"><rect x="128.0" y="332.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="148.0" y="347.0" text-anchor="middle" dominant-baseline="central" fill="#222">s2</text></g>
+      <g class="vertex"><rect x="264.5" y="258.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="291.3" y="273.0" text-anchor="middle" dominant-baseline="central" fill="#222">c3 ?</text></g>
+      <g class="vertex"><rect x="250.0" y="332.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="270.0" y="347.0" text-anchor="middle" dominant-baseline="central" fill="#222">s3</text></g>
+      <g class="vertex"><rect x="271.3" y="450.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="291.3" y="465.0" text-anchor="middle" dominant-baseline="central" fill="#222">j3</text></g>
+      <g class="vertex"><rect x="176.4" y="716.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="203.2" y="731.0" text-anchor="middle" dominant-baseline="central" fill="#222">c4 ?</text></g>
+      <g class="vertex"><rect x="150.2" y="790.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="170.2" y="805.0" text-anchor="middle" dominant-baseline="central" fill="#222">s4</text></g>
+      <g class="vertex"><rect x="183.2" y="908.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="203.2" y="923.0" text-anchor="middle" dominant-baseline="central" fill="#222">j4</text></g>
+      <g class="vertex"><rect x="176.4" y="982.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="203.2" y="997.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+      <g class="vertex"><rect x="216.2" y="790.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="236.2" y="805.0" text-anchor="middle" dominant-baseline="central" fill="#222">s5</text></g>
+    </g>
+  </g>
+</svg>

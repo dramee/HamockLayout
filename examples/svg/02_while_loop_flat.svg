@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="265.8" height="406.0" viewBox="0 0 265.8 406.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="132.9" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">02_while_loop: без гамаков</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M174.9,50.0 L174.9,94.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M174.9,124.0 L174.9,168.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M181.9,198.0 L174.5,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M167.9,198.0 L61.6,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M174.5,272.0 L212.7,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M228.9,346.0 L228.9,351.0 Q228.9,356.0 233.9,356.0 L239.8,356.0 Q245.8,356.0 245.8,350.0 L245.8,300.0 Q245.8,294.0 242.6,288.9 L235.0,277.1 Q231.8,272.0 231.8,266.0 L231.8,248.0 Q231.8,242.0 229.5,236.4 L225.1,225.6 Q222.8,220.0 222.8,214.0 L222.8,164.0 Q222.8,158.0 216.8,158.0 L206.5,158.0 Q201.5,158.0 201.5,163.0 L201.5,168.0" stroke="#c0392b" marker-end="url(#arrow-back)"/>
+      <path d="M61.6,272.0 L61.6,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="144.4" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="174.9" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="118.5" y="94.0" width="112.8" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="174.9" y="109.0" text-anchor="middle" dominant-baseline="central" fill="#222">s = 0; i = 0</text></g>
+      <g class="vertex"><rect x="137.0" y="168.0" width="75.8" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="174.9" y="183.0" text-anchor="middle" dominant-baseline="central" fill="#222">i &lt; n ?</text></g>
+      <g class="vertex"><rect x="129.2" y="242.0" width="90.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="174.5" y="257.0" text-anchor="middle" dominant-baseline="central" fill="#222">s += a[i]</text></g>
+      <g class="vertex"><rect x="189.6" y="316.0" width="46.2" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="212.7" y="331.0" text-anchor="middle" dominant-baseline="central" fill="#222">i++</text></g>
+      <g class="vertex"><rect x="20.0" y="242.0" width="83.2" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="61.6" y="257.0" text-anchor="middle" dominant-baseline="central" fill="#222">return s</text></g>
+      <g class="vertex"><rect x="34.8" y="316.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="61.6" y="331.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+    </g>
+  </g>
+</svg>

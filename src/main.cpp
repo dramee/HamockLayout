@@ -1,4 +1,5 @@
 // Утилита командной строки: читает граф в формате GraphML и выводит его гамаки.
+#include "cli_args.hpp"
 #include "hammock/graphml.hpp"
 #include "hammock/hammocks.hpp"
 #include "hammock/xml.hpp"
@@ -102,10 +103,12 @@ int main(int argc, char** argv) {
     bool json = false;
     bool showNumbering = false;
     bool reference = false;
-    for (int i = 1; i < argc; ++i) {
-        const std::string arg = argv[i];
-        if ((arg == "--entry" || arg == "--exit") && i + 1 < argc) {
-            (arg == "--entry" ? options.entryId : options.exitId) = argv[++i];
+    const std::vector<std::string> args = utf8Arguments(argc, argv);
+    const int count = static_cast<int>(args.size());
+    for (int i = 1; i < count; ++i) {
+        const std::string& arg = args[i];
+        if ((arg == "--entry" || arg == "--exit") && i + 1 < count) {
+            (arg == "--entry" ? options.entryId : options.exitId) = args[++i];
         } else if (arg == "--json") {
             json = true;
         } else if (arg == "--numbering") {

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Поиск в цикле с break и continue -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="i = 0"/>
+    <node id="i &lt; n ?"/>
+    <node id="a[i] &lt; 0 ?"/>
+    <node id="i++"/>
+    <node id="found = -1"/>
+    <node id="after loop"/>
+    <node id="a[i] == x ?"/>
+    <node id="found = i"/>
+    <node id="print found"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="i = 0"/>
+    <edge source="i = 0" target="i &lt; n ?"/>
+    <edge source="i &lt; n ?" target="a[i] &lt; 0 ?"/>
+    <edge source="a[i] &lt; 0 ?" target="i++"/>
+    <edge source="i++" target="i &lt; n ?"/>
+    <edge source="i &lt; n ?" target="found = -1"/>
+    <edge source="found = -1" target="after loop"/>
+    <edge source="a[i] &lt; 0 ?" target="a[i] == x ?"/>
+    <edge source="a[i] == x ?" target="found = i"/>
+    <edge source="found = i" target="after loop"/>
+    <edge source="a[i] == x ?" target="i++"/>
+    <edge source="after loop" target="print found"/>
+    <edge source="print found" target="exit"/>
+  </graph>
+</graphml>

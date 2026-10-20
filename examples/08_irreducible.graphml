@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Неприводимый граф: в цикл B <-> C два входа -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="A"/>
+    <node id="B"/>
+    <node id="C"/>
+    <node id="D"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="A"/>
+    <edge source="A" target="B"/>
+    <edge source="B" target="C"/>
+    <edge source="C" target="B"/>
+    <edge source="A" target="C"/>
+    <edge source="C" target="D"/>
+    <edge source="D" target="exit"/>
+    <edge source="B" target="D"/>
+  </graph>
+</graphml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="138.0" height="544.0" viewBox="0 0 138.0 544.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="69.0" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">09_sequence: гамаки</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M69.0,50.0 L69.0,94.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M69.0,124.0 L69.0,168.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M69.0,198.0 L69.0,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M69.0,272.0 L69.0,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M69.0,346.0 L69.0,390.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M69.0,420.0 L69.0,464.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="38.5" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="69.0" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="20.0" y="94.0" width="98.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="69.0" y="109.0" text-anchor="middle" dominant-baseline="central" fill="#222">a = read()</text></g>
+      <g class="vertex"><rect x="20.0" y="168.0" width="98.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="69.0" y="183.0" text-anchor="middle" dominant-baseline="central" fill="#222">b = read()</text></g>
+      <g class="vertex"><rect x="23.7" y="242.0" width="90.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="69.0" y="257.0" text-anchor="middle" dominant-baseline="central" fill="#222">c = a * b</text></g>
+      <g class="vertex"><rect x="23.7" y="316.0" width="90.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="69.0" y="331.0" text-anchor="middle" dominant-baseline="central" fill="#222">d = c + 1</text></g>
+      <g class="vertex"><rect x="31.1" y="390.0" width="75.8" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="69.0" y="405.0" text-anchor="middle" dominant-baseline="central" fill="#222">print d</text></g>
+      <g class="vertex"><rect x="42.2" y="464.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="69.0" y="479.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- if (x > 0) y = x; else y = -x; -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="x &gt; 0 ?"/>
+    <node id="y = x"/>
+    <node id="endif"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <node id="y = -x"/>
+    <edge source="entry" target="x &gt; 0 ?"/>
+    <edge source="x &gt; 0 ?" target="y = x"/>
+    <edge source="y = x" target="endif"/>
+    <edge source="endif" target="exit"/>
+    <edge source="x &gt; 0 ?" target="y = -x"/>
+    <edge source="y = -x" target="endif"/>
+  </graph>
+</graphml>

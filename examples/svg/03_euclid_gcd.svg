@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="354.8" height="776.0" viewBox="0 0 354.8 776.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="177.4" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">03_euclid_gcd: гамаки</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+      <g class="hammock"><title>гамак b != 0 ? → return a</title>
+        <rect x="20.0" y="168.0" width="305.7" height="410.0" rx="8" fill="#e8f1fb" stroke="#7aa7d6" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="27.0" y="181.0" text-anchor="start" font-size="11" fill="#3d6c9e">b != 0 ? → return a</text>
+        <circle cx="293.2" cy="578.0" r="2.5" fill="#7aa7d6"/>
+      </g>
+      <g class="hammock"><title>гамак a &gt; b ? → endif</title>
+        <rect x="34.0" y="282.0" width="235.2" height="178.0" rx="8" fill="#eaf6ec" stroke="#7dbb8a" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="41.0" y="295.0" text-anchor="start" font-size="11" fill="#3f7d4c">a &gt; b ? → endif</text>
+        <circle cx="151.6" cy="460.0" r="2.5" fill="#7dbb8a"/>
+      </g>
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M144.6,342.0 L93.3,386.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M158.6,342.0 L209.9,386.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M209.9,416.0 L151.6,460.0" stroke="#555555"/>
+      <path d="M93.3,416.0 L151.6,460.0" stroke="#555555"/>
+      <path d="M253.1,238.0 L157.1,279.6 Q151.6,282.0 151.6,288.0 L151.6,312.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M267.1,238.0 L290.1,276.8 Q293.2,282.0 293.2,288.0 L293.2,454.0 Q293.2,460.0 293.2,466.0 L293.2,498.0 Q293.2,504.0 293.2,510.0 L293.2,528.0 Q293.2,534.0 293.2,540.0 L293.2,578.0" stroke="#555555"/>
+      <path d="M151.6,460.0 L216.4,504.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M237.8,534.0 L237.8,539.0 Q237.8,544.0 242.8,544.0 L250.9,544.0 Q256.9,544.0 256.9,538.0 L256.9,488.0 Q256.9,482.0 261.3,478.0 L276.8,464.0 Q281.2,460.0 281.2,454.0 L281.2,288.0 Q281.2,282.0 286.1,278.5 L306.8,263.5 Q311.7,260.0 311.7,254.0 L311.7,204.0 Q311.7,198.0 305.7,198.0 L294.2,198.0 Q289.2,198.0 289.2,203.0 L289.2,208.0" stroke="#c0392b" marker-end="url(#arrow-back)"/>
+      <path d="M260.1,50.0 L260.1,94.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M260.1,124.0 L260.1,162.0 Q260.1,168.0 260.1,174.0 L260.1,208.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M293.2,578.0 L293.2,622.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M293.2,652.0 L293.2,696.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="229.6" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="260.1" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="214.8" y="94.0" width="90.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="260.1" y="109.0" text-anchor="middle" dominant-baseline="central" fill="#222">read a, b</text></g>
+      <g class="vertex"><rect x="218.5" y="208.0" width="83.2" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="260.1" y="223.0" text-anchor="middle" dominant-baseline="central" fill="#222">b != 0 ?</text></g>
+      <g class="vertex"><rect x="113.7" y="312.0" width="75.8" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="151.6" y="327.0" text-anchor="middle" dominant-baseline="central" fill="#222">a &gt; b ?</text></g>
+      <g class="vertex"><rect x="48.0" y="386.0" width="90.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="93.3" y="401.0" text-anchor="middle" dominant-baseline="central" fill="#222">a = a - b</text></g>
+      <g class="vertex"><rect x="185.9" y="504.0" width="61.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="216.4" y="519.0" text-anchor="middle" dominant-baseline="central" fill="#222">endif</text></g>
+      <g class="vertex"><rect x="251.6" y="622.0" width="83.2" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="293.2" y="637.0" text-anchor="middle" dominant-baseline="central" fill="#222">return a</text></g>
+      <g class="vertex"><rect x="266.4" y="696.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="293.2" y="711.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+      <g class="vertex"><rect x="164.6" y="386.0" width="90.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="209.9" y="401.0" text-anchor="middle" dominant-baseline="central" fill="#222">b = b - a</text></g>
+    </g>
+  </g>
+</svg>

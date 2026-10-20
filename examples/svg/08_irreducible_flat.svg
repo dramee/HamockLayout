@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="132.0" height="470.0" viewBox="0 0 132.0 470.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="66.0" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">08_irreducible: без гамаков</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M81.5,50.0 L81.5,94.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M74.5,124.0 L46.8,168.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M88.5,124.0 L97.4,162.2 Q98.8,168.0 98.8,174.0 L98.8,192.0 Q98.8,198.0 97.4,203.8 L88.5,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M53.8,198.0 L74.5,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M39.8,198.0 L30.8,236.2 Q29.5,242.0 29.5,248.0 L29.5,266.0 Q29.5,272.0 30.8,277.8 L39.8,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M95.5,272.0 L95.5,277.0 Q95.5,282.0 100.5,282.0 L105.5,282.0 Q111.5,282.0 111.5,276.0 L111.5,226.0 Q111.5,220.0 105.5,220.0 L82.8,220.0 Q76.8,220.0 76.8,214.0 L76.8,164.0 Q76.8,158.0 70.8,158.0 L65.8,158.0 Q60.8,158.0 60.8,163.0 L60.8,168.0" stroke="#c0392b" marker-end="url(#arrow-back)"/>
+      <path d="M81.5,272.0 L53.8,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M46.8,346.0 L46.8,390.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="51.0" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="81.5" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="61.5" y="94.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="81.5" y="109.0" text-anchor="middle" dominant-baseline="central" fill="#222">A</text></g>
+      <g class="vertex"><rect x="26.8" y="168.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="46.8" y="183.0" text-anchor="middle" dominant-baseline="central" fill="#222">B</text></g>
+      <g class="vertex"><rect x="61.5" y="242.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="81.5" y="257.0" text-anchor="middle" dominant-baseline="central" fill="#222">C</text></g>
+      <g class="vertex"><rect x="26.8" y="316.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="46.8" y="331.0" text-anchor="middle" dominant-baseline="central" fill="#222">D</text></g>
+      <g class="vertex"><rect x="20.0" y="390.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="46.8" y="405.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+    </g>
+  </g>
+</svg>

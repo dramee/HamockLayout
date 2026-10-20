@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Двоичный поиск: досрочный return из цикла -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="lo = 0; hi = n-1"/>
+    <node id="lo &lt;= hi ?"/>
+    <node id="mid = (lo+hi)/2"/>
+    <node id="a[mid] == x ?"/>
+    <node id="return mid"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <node id="a[mid] &lt; x ?"/>
+    <node id="lo = mid+1"/>
+    <node id="hi = mid-1"/>
+    <node id="return -1"/>
+    <edge source="entry" target="lo = 0; hi = n-1"/>
+    <edge source="lo = 0; hi = n-1" target="lo &lt;= hi ?"/>
+    <edge source="lo &lt;= hi ?" target="mid = (lo+hi)/2"/>
+    <edge source="mid = (lo+hi)/2" target="a[mid] == x ?"/>
+    <edge source="a[mid] == x ?" target="return mid"/>
+    <edge source="return mid" target="exit"/>
+    <edge source="a[mid] == x ?" target="a[mid] &lt; x ?"/>
+    <edge source="a[mid] &lt; x ?" target="lo = mid+1"/>
+    <edge source="lo = mid+1" target="lo &lt;= hi ?"/>
+    <edge source="a[mid] &lt; x ?" target="hi = mid-1"/>
+    <edge source="hi = mid-1" target="lo &lt;= hi ?"/>
+    <edge source="lo &lt;= hi ?" target="return -1"/>
+    <edge source="return -1" target="exit"/>
+  </graph>
+</graphml>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="225.8" height="766.0" viewBox="0 0 225.8 766.0" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="112.9" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#222">10_nested_if: без гамаков</text>
+  <g transform="translate(0,30.0)">
+    <g class="hammocks">
+    </g>
+    <g class="edges" fill="none" stroke-width="1.4">
+      <path d="M135.8,50.0 L136.2,94.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M129.2,124.0 L94.0,168.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M143.2,124.0 L179.0,168.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M172.0,198.0 L172.0,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M186.0,198.0 L201.7,236.4 Q204.0,242.0 204.0,248.0 L204.0,266.0 Q204.0,272.0 201.8,277.6 L186.3,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M172.0,272.0 L172.3,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M179.3,346.0 L144.3,390.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M87.0,198.0 L40.0,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M101.0,198.0 L106.0,242.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M106.0,272.0 L101.5,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M40.0,272.0 L87.5,316.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M94.5,346.0 L130.3,390.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M137.3,420.0 L138.0,464.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M131.0,494.0 L105.2,538.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M145.0,494.0 L171.2,538.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M171.2,568.0 L145.3,612.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M105.2,568.0 L131.3,612.0" stroke="#555555" marker-end="url(#arrow)"/>
+      <path d="M138.3,642.0 L138.3,686.0" stroke="#555555" marker-end="url(#arrow)"/>
+    </g>
+    <g class="vertices" font-size="13">
+      <g class="vertex"><rect x="105.3" y="20.0" width="61.0" height="30.0" rx="12.0" fill="#d9f2dd" stroke="#2e7d32" stroke-width="1.4"/><text x="135.8" y="35.0" text-anchor="middle" dominant-baseline="central" fill="#222">entry</text></g>
+      <g class="vertex"><rect x="109.4" y="94.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="136.2" y="109.0" text-anchor="middle" dominant-baseline="central" fill="#222">c1 ?</text></g>
+      <g class="vertex"><rect x="67.2" y="168.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="94.0" y="183.0" text-anchor="middle" dominant-baseline="central" fill="#222">c2 ?</text></g>
+      <g class="vertex"><rect x="20.0" y="242.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="40.0" y="257.0" text-anchor="middle" dominant-baseline="central" fill="#222">s1</text></g>
+      <g class="vertex"><rect x="74.5" y="316.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="94.5" y="331.0" text-anchor="middle" dominant-baseline="central" fill="#222">j2</text></g>
+      <g class="vertex"><rect x="117.3" y="390.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="137.3" y="405.0" text-anchor="middle" dominant-baseline="central" fill="#222">j1</text></g>
+      <g class="vertex"><rect x="86.0" y="242.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="106.0" y="257.0" text-anchor="middle" dominant-baseline="central" fill="#222">s2</text></g>
+      <g class="vertex"><rect x="152.2" y="168.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="179.0" y="183.0" text-anchor="middle" dominant-baseline="central" fill="#222">c3 ?</text></g>
+      <g class="vertex"><rect x="152.0" y="242.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="172.0" y="257.0" text-anchor="middle" dominant-baseline="central" fill="#222">s3</text></g>
+      <g class="vertex"><rect x="159.3" y="316.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="179.3" y="331.0" text-anchor="middle" dominant-baseline="central" fill="#222">j3</text></g>
+      <g class="vertex"><rect x="111.2" y="464.0" width="53.6" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="138.0" y="479.0" text-anchor="middle" dominant-baseline="central" fill="#222">c4 ?</text></g>
+      <g class="vertex"><rect x="85.2" y="538.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="105.2" y="553.0" text-anchor="middle" dominant-baseline="central" fill="#222">s4</text></g>
+      <g class="vertex"><rect x="118.3" y="612.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="138.3" y="627.0" text-anchor="middle" dominant-baseline="central" fill="#222">j4</text></g>
+      <g class="vertex"><rect x="111.5" y="686.0" width="53.6" height="30.0" rx="12.0" fill="#fde0dc" stroke="#c62828" stroke-width="1.4"/><text x="138.3" y="701.0" text-anchor="middle" dominant-baseline="central" fill="#222">exit</text></g>
+      <g class="vertex"><rect x="151.2" y="538.0" width="40.0" height="30.0" rx="12.0" fill="#ffffff" stroke="#444444" stroke-width="1.4"/><text x="171.2" y="553.0" text-anchor="middle" dominant-baseline="central" fill="#222">s5</text></g>
+    </g>
+  </g>
+</svg>

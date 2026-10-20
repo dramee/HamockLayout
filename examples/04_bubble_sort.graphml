@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Сортировка пузырьком: два вложенных цикла и ветвление -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="i = 0"/>
+    <node id="i &lt; n-1 ?"/>
+    <node id="j = 0"/>
+    <node id="j &lt; n-i-1 ?"/>
+    <node id="a[j] &gt; a[j+1] ?"/>
+    <node id="swap(a[j], a[j+1])"/>
+    <node id="j++"/>
+    <node id="i++"/>
+    <node id="return"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="i = 0"/>
+    <edge source="i = 0" target="i &lt; n-1 ?"/>
+    <edge source="i &lt; n-1 ?" target="j = 0"/>
+    <edge source="j = 0" target="j &lt; n-i-1 ?"/>
+    <edge source="j &lt; n-i-1 ?" target="a[j] &gt; a[j+1] ?"/>
+    <edge source="a[j] &gt; a[j+1] ?" target="swap(a[j], a[j+1])"/>
+    <edge source="swap(a[j], a[j+1])" target="j++"/>
+    <edge source="j++" target="j &lt; n-i-1 ?"/>
+    <edge source="j &lt; n-i-1 ?" target="i++"/>
+    <edge source="i++" target="i &lt; n-1 ?"/>
+    <edge source="i &lt; n-1 ?" target="return"/>
+    <edge source="return" target="exit"/>
+    <edge source="a[j] &gt; a[j+1] ?" target="j++"/>
+  </graph>
+</graphml>

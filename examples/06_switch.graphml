@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Калькулятор: switch с вложенной проверкой деления на ноль -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="read a, op, b"/>
+    <node id="switch (op)"/>
+    <node id="r = a + b"/>
+    <node id="r = a - b"/>
+    <node id="r = a * b"/>
+    <node id="b == 0 ?"/>
+    <node id="error"/>
+    <node id="print r"/>
+    <node id="r = a / b"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="read a, op, b"/>
+    <edge source="read a, op, b" target="switch (op)"/>
+    <edge source="switch (op)" target="r = a + b"/>
+    <edge source="switch (op)" target="r = a - b"/>
+    <edge source="switch (op)" target="r = a * b"/>
+    <edge source="switch (op)" target="b == 0 ?"/>
+    <edge source="switch (op)" target="error"/>
+    <edge source="r = a + b" target="print r"/>
+    <edge source="r = a - b" target="print r"/>
+    <edge source="r = a * b" target="print r"/>
+    <edge source="b == 0 ?" target="error"/>
+    <edge source="b == 0 ?" target="r = a / b"/>
+    <edge source="r = a / b" target="print r"/>
+    <edge source="print r" target="exit"/>
+    <edge source="error" target="exit"/>
+  </graph>
+</graphml>

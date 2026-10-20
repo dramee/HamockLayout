@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Линейный участок: только тривиальные гамаки, укладка плоская -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="entry"><data key="role">entry</data></node>
+    <node id="a = read()"/>
+    <node id="b = read()"/>
+    <node id="c = a * b"/>
+    <node id="d = c + 1"/>
+    <node id="print d"/>
+    <node id="exit"><data key="role">exit</data></node>
+    <edge source="entry" target="a = read()"/>
+    <edge source="a = read()" target="b = read()"/>
+    <edge source="b = read()" target="c = a * b"/>
+    <edge source="c = a * b" target="d = c + 1"/>
+    <edge source="d = c + 1" target="print d"/>
+    <edge source="print d" target="exit"/>
+  </graph>
+</graphml>
